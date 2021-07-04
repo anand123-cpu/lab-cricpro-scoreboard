@@ -1,15 +1,67 @@
 /* Type your code here */
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
 
+body{
+	background-image:url('../lab-cricpro-scoreboard/assets/background-image1.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
 
+table{
+    font-size: large;
+    margin: left;
+	background: white;
+}
+table,td,th{
+    border-collapse: collapse;
+}
+
+tr:nth-child(1){
+    background-color: red;
+}
+
+tr:nth-child(2){
+    background-color: rgb(236, 230, 230);
+	border-bottom: 1px solid grey;
+	text-align: left;
+	
+}
+
+th,td{
+    padding: 10px;
+}
+
+td{
+    border-bottom: 1px solid grey;
+}
+
+#extra{
+	text-align: left;
+	border-bottom: 1px solid grey;
+}
+h1{
+	font-size: 250%;
+}
+h3{
+	text-align: left;
+	color: grey;
+}
+a{
+	color: rgb(16, 145, 196);
+}
+#input{
+	text-align: center;
+}
+
+#india{
+	color: white;
+}
 /* change the font family and spacing as per your project font */
 .footer{
     display:flex;
     flex-direction: row;
     align-content: flex-end;
 	position: relative;
-	top: 750px;
-	margin-left: 80px;
-	font-size: 18px;
 	font-family: Nunito Sans;
     font-style: normal;
     
